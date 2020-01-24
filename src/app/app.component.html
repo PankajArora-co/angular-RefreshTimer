@@ -1,4 +1,4 @@
 <hello name="{{ name }}">Test</hello>
-<p>
-  Start editing to see some magic happen :) Test
-</p>
+  <div class="refresh-timer">{{ showClock() }}</div>
+  <br>
+  <div class="refresh-timer"><button class="btn btn-primary" (click)="refresh()"> Reset </button></div>
